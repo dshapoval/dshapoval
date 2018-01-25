@@ -1,0 +1,506 @@
+body {
+ background: url(demoShop/patt.png);
+font-family: 'Roboto', sans-serif;
+ }
+
+.page-header {
+	padding: 26px 0 24px;
+	background: rgba(204,220,239,0.75);
+	margin: 0px;
+	border-bottom:  1px solid white;
+	}
+.img_center {
+	padding: 7px 0px 4px;
+}
+.padding_0 {
+	padding: 0px;
+}
+.border {
+	border-right: 1px solid rgb(45,113,184);
+}
+.menu {padding: 0px;
+margin: 0px;
+position: relative;}	
+
+.menu:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.menu> li {
+	list-style: none;
+	display: block;
+	float: left;
+}
+
+
+/*.li_prod>a:hover:after{
+content: url('demoShop/myicon.png');
+display: block;
+width: 10px;
+height: 10px;
+position: absolute;
+right: 5px;
+top: 10px;
+}*/
+::-webkit-input-placeholder {color:rgb(45,113,184);}
+
+.li_prod:hover:after{
+content: url('demoShop/myicon.png');
+display: block;
+width: 10px;
+height: 10px;
+position: absolute;
+left: 260px;
+top: 20px;
+}
+.menu >li>a {
+	display: block;
+	font-size: 21px;
+	border-right: 1px solid rgb(45,113,184);
+	color: rgb(45,113,184);
+	width: 142px;
+	text-align: center;
+	padding: 11px 0px 9px;
+	text-decoration: none;
+	position: relative;
+	}
+.menu >li>a:hover {
+	color: white;
+	background: rgb(45,113,184);
+	/*transition: color 1s ease;*/
+	}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding-left: 0px;
+    z-index: 2;
+    margin-left: -1px;
+}
+
+ul.submenu > li {
+   display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px 5px 10px 30px;
+    width: 285px;
+    color: white;
+    font-size: 15px;
+    list-style-position: inside;
+    background-color: rgb(45,113,184);
+    text-decoration: none;
+    font-size: 21px;
+ 	}
+ul.submenu > li > a:hover {
+  color: rgb(45,113,184);
+  background: white;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+.menu> li:hover {
+	background: rgb(45,113,184);
+}
+.menu> li:hover a{
+	color:white;
+}
+.search_form {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.sf_width {
+	width: 200px;
+	position: relative;
+	border: 1px solid rgb(45,113,184);
+}
+.search {
+	padding: 5px 0px 5px 17px ;
+	position: relative ;
+	top: 0px;
+	left: 0px;
+}
+.button {position: absolute;
+	border: none;
+	height: 30px;
+	top: 4px;
+	right: 4px;
+}
+.button button {
+	border: none;
+    padding: 0px; 
+
+}
+.button>button> img {
+	padding: 9px 8px;
+	border: 0px;
+	display: block;	
+	background: rgb(45,113,184)
+}
+.margine0 {margin: 0px;
+}
+input[type="search"] { 
+    padding: 9px 0px 9px  10px;
+    color:  rgb(45,113,184);
+    border: none;
+    width: 100%;
+    padding-right: 40px;
+    background:transparent;
+   }
+ .cart {
+ 	position: absolute;
+ 	left: 30px;
+ }
+ .cart img{
+ 	padding: 10px 11px;
+ 	background: white;
+
+ }
+ .count {
+ 	font-size:9px;
+ 	position: absolute;
+ 	top: -5px;
+ 	left: 20px;
+
+ }
+ .count span { 
+ 	padding:  5px 7.5px;
+ 	border-radius: 50%; 
+ 	background: rgb(45,113,184);
+ 	color: white; }
+ .cart button  {
+ 	border: none;
+ 	padding: 0px;
+ }
+.bread_cr > li + li:before {
+padding: 0px 9px;
+color: rgb(172,193,221);
+content: ">";
+}
+.bread_cr>li>a {
+	color: rgb(173,192,222); 
+}
+.bread_cr>li>a:hover{
+	color: white;
+}
+.bread_cr {
+background:transparent;
+}
+.breadcrumb > .active{
+	color: rgb(173,192,222);
+}
+.breadcrumb > .active>a{
+	text-decoration: underline;
+}
+.active span{
+	text-decoration: underline;
+}
+.br_cr_main {
+	padding-top: 30px;
+}
+.products {
+	padding-top:11px;
+	padding-bottom: 45px;
+}
+.products span {
+	font-size: 48px;
+/*	font-weight: bold;*/
+	font-family: Roboto bold;
+	color: #ffffff;
+}
+.sort_possition {
+	padding-top: 18px;
+}
+.sort  {
+	font-size: 21px;
+	/*font-family: [Roboto light];*/
+	color: #ffffff;
+	background: rgb(45,113,184);
+	width: 270.5px;
+	height: 40px;
+	text-align: 40px;
+}
+/*.option-2:hover {
+	background: white;
+}*/
+.device_logo {
+	position: relative;
+	height: 180px;
+	width: 270px;
+	border: 1px solid white;
+	background: rgba(202,219,237,0.8);
+}
+
+.logo_position {
+	vertical-align: middle;
+    text-align: center;
+    line-height: 180px;
+}
+
+.device_like {
+	position: absolute;
+	top: 50px;
+	right: 10px;
+
+}
+.device_like a {
+	background: none;
+	border: 1px solid rgb(56,121,188);
+	height:30px;
+	width: 30px;
+	padding: 0px;
+	display: block;
+}
+.device_like>a>img{
+	padding: 5.5px 5px 5.5px 5px
+}
+.device_like:hover a{
+	background: rgb(44,113,184);
+	content: url('demoShop/icon (7).png');
+	padding: 5.5px 5px 5.5px 5px
+}
+.custom-input:checked + label:before {
+	background: white;
+}
+
+
+/*.device_window {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}*/
+.overlay {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.overlay a {
+	background: none;
+	border: 1px solid rgb(56,121,188);
+	padding: 0px;
+	display: block;
+}
+
+.overlay> a > img{
+	padding: 4px;
+}
+
+.overlay:hover a{
+	background: rgb(44,113,184);
+	content: url('demoShop/icon (6).png');
+	padding: 4px;
+}
+.text_position {
+	padding-left: 15px;
+	color: white;
+}
+.about_device {
+	height: 472px;
+	width: 270px;
+	border: 1px solid white;
+	border-top: none;
+}
+.device_name {
+	font-size: 30px;
+	font-weight: bold;
+}
+.device_about, .properties {
+	font-size: 21px;
+}
+.properties span + span {
+	padding-left: 9px;
+}
+.type,.screen_size,.ram {
+	padding-top: 7px;
+}
+.text-transform {
+	text-transform: uppercase;
+}
+.price {
+ font-size: 48px;
+ color: white;
+ vertical-align: middle;
+ text-align: center;
+ font-weight: bold;
+}
+.details, .add-to-cart {
+color: white;
+text-align: center;
+font-size: 21px;
+}
+.details> a:hover {
+background: rgb(86,141,198);
+}
+.add-to-cart>a:hover {
+	background: rgb(86,141,198);
+}
+/*.details button {
+	text-transform: uppercase;
+	vertical-align: middle;
+	height: 50px;
+	width: 210px;
+	background: rgb(44,113,185);
+	border: 1px solid white;
+}*/
+.details  a {
+	display: inline-block;
+	text-transform: uppercase;
+	line-height: 50px;
+	height: 50px;
+	width: 210px;
+	background: rgb(44,113,185);
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+}
+.details { padding: 17px 0px 15px 0px;
+
+}
+.add-to-cart a {
+	text-transform: uppercase;
+	vertical-align: middle;
+	height: 50px;
+	width: 210px;
+	background: rgba(44,113,185,0.7);
+	border: 1px solid white;
+	padding: 0px;
+	position: relative;
+	font-size: 21px;
+	display: inline-block;
+}
+.add-to-cart>a>img
+{
+	position: absolute;
+	top: 15px;
+	right: 12px;
+}
+.add-to-cart>a>span
+{
+	position: absolute;
+	top: 11px;
+	left: 26px;
+	color: white;
+}
+.pd_left {								/*Для отступов между товарами 30px*/
+padding: 0px 0px 0px 7.5px;
+}
+.padding-left-3rd-data {				/*Отступ третьего столбца с товарами*/	
+	padding-left: 15px;
+}
+
+.pd_bottom {                            /*Для отступов между строками 30px*/
+padding: 0px 0px 30px 0px;
+}
+.device_type {
+	padding-top:30px;
+	color: white;
+}
+.dt_label {
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+.dc_label{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.device_color {
+	color: white;
+	padding-top: 50px;
+}
+.dr_label {
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.device_ram {
+	color: white;
+	padding-top: 50px;
+}
+.custom-input {
+	display: none;
+}
+.checkboxes {
+	padding: 0px 29px 29px 29px;
+	background: rgba(86,141,198,0.5);
+	width: 270px;
+	border-right: 1px solid white;
+}
+.checkboxes label {
+	padding-top: 13px;
+	font-size: 21px;
+	font-weight: lighter;
+	margin: auto;
+}
+.checkboxes label:before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border: 1px solid white;
+	margin-right: 5px;
+	cursor: pointer;
+	margin-bottom: 2px;
+}
+.custom-input:checked + label:before {
+	background: white;
+}
+.submit input {
+	width: 210px;
+	height: 50px;
+	background: rgb(44,113,184);
+	border: 1px solid white;
+	font-size: 21px;
+	text-transform: uppercase;
+	color: white;
+	padding: 0px;
+}
+.submit {
+	padding-top: 29px ; 
+}
+.more-options a {
+	color: white;
+	font-size: 21px;
+}
+.more-options {
+		padding: 21px 0px 0px 7px;
+}
+.load-more {
+	font-size: 36px;
+	text-align: center;
+	padding-top: 37px;
+	margin: 0px;
+}
+.load-more a {
+	color: white;
+}
+.main {
+	padding-bottom: 90px;
+	border-top: 1px solid white;
+}
+.footer {
+	background: rgba(202,219,237,0.8);
+}
+.copyright {
+	font-size: 21px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+}
+.slider  div {
+	height: 399px;
+	font-size: 55px;
+	text-align: center;
+	padding: 40px 0px;
+}
+.slick-dots li button:before{
+	color: white!important;
+}
+
+.like {
+	background: rgb(44,113,184);
+	content: url('demoShop/icon (7).png');
+	padding: 5.5px 5px 5.5px 5px
+}

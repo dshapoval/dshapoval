@@ -1,0 +1,58 @@
+[1119/145403:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1119/145408:INFO:CONSOLE(544)] "Spaces plugin version: %d.%d.%d", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145410:INFO:CONSOLE(544)] "Startup complete: %dms", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145417:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145419:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145420:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145421:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145423:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145424:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145425:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145426:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145428:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145429:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145430:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145432:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145454:INFO:CONSOLE(544)] "Export Service failed to initialize.  Giving Up.  Cause: Domain 'generator-spaces' does not exist, nor was a domain path provided", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145531:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1119/145535:INFO:CONSOLE(544)] "Spaces plugin version: %d.%d.%d", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145536:INFO:CONSOLE(544)] "Startup complete: %dms", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1119/145537:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1119/145537:ERROR:cache_util.cc(132)] Unable to move cache folder C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\web-cache-temp to C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\old_web-cache-temp_000
+[1119/145537:ERROR:cache_creator.cc(132)] Unable to create cache
+[1126/132526:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1126/132558:INFO:CONSOLE(544)] "Spaces plugin version: %d.%d.%d", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1126/132604:INFO:CONSOLE(544)] "Startup complete: %dms", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1126/132606:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1126/132606:ERROR:cache_util.cc(132)] Unable to move cache folder C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\web-cache-temp to C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\old_web-cache-temp_000
+[1126/132606:ERROR:cache_creator.cc(132)] Unable to create cache
+[1202/143950:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1202/144021:INFO:CONSOLE(544)] "Spaces plugin version: %d.%d.%d", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/144034:INFO:CONSOLE(544)] "Startup complete: %dms", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/144038:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1202/144038:ERROR:cache_util.cc(132)] Unable to move cache folder C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\web-cache-temp to C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\old_web-cache-temp_000
+[1202/144038:ERROR:cache_creator.cc(132)] Unable to create cache
+[1202/144043:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/144046:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/144047:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/144048:INFO:CONSOLE(544)] "WebSocket connection to 'ws://localhost:59596/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/154116:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1202/154118:INFO:CONSOLE(544)] "Spaces plugin version: %d.%d.%d", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/154134:INFO:CONSOLE(544)] "Startup complete: %dms", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/154135:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1202/154135:ERROR:cache_util.cc(132)] Unable to move cache folder C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\web-cache-temp to C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\old_web-cache-temp_000
+[1202/154135:ERROR:cache_creator.cc(132)] Unable to create cache
+[1202/155539:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1202/155545:INFO:CONSOLE(544)] "Spaces plugin version: %d.%d.%d", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/155555:INFO:CONSOLE(544)] "Startup complete: %dms", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/155556:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1202/155556:ERROR:cache_util.cc(132)] Unable to move cache folder C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\web-cache-temp to C:\Users\alyon\AppData\Roaming\Adobe\Adobe Photoshop CC 2015\Adobe Photoshop CC 2015 Settings\old_web-cache-temp_000
+[1202/155556:ERROR:cache_creator.cc(132)] Unable to create cache
+[1202/155959:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1202/155959:WARNING:message_in_transit_queue.cc(18)] Destroying nonempty message queue
+[1202/163545:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1202/163545:WARNING:message_in_transit_queue.cc(18)] Destroying nonempty message queue
+[1202/163547:INFO:CONSOLE(544)] "Spaces plugin version: %d.%d.%d", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/163549:INFO:CONSOLE(544)] "Startup complete: %dms", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%20CC%202015/Required/Plug-Ins/Spaces2//www/src/js/main-en.js (544)
+[1202/163632:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[1202/163633:WARNING:message_in_transit_queue.cc(18)] Destroying nonempty message queue

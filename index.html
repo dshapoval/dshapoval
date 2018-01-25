@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DemoShop</title>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="page-header">
+		<div class="container padding_0">
+			<div class="row margine0">
+				<div class="col-md-3 padding_0 border">
+					<img class="img_center" src="demoShop/icon (3).png" alt="">
+				</div>
+				<div class="col-md-6  padding_0">
+					<div class="">
+						<ul class="menu">
+							<li class="li_home"><a href="">Home</a></li>
+							<li class="li_prod"><a href="">Products</a>
+								<ul class="submenu">
+									<li><a href="">Lorem ipsum dolor</a></li>
+									<li><a href="">Sit amet</a></li>
+									<li><a href="">Consectetur adipisicing</a></li>
+									<li><a href="">Temporibus eum sit</a></li>
+									<li><a href="">Omnis esse et</a></li>
+								</ul></li>
+							<li class="li_paym"><a href="">Payments</a></li>
+							<li class="li_ship"><a href="">Shipping</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 search">
+					<div class="row margine0"> 
+						<div class="col-md-9 padding_0 sf_width">
+							<div class="search-form">
+								<div class="input">
+									<input type="search" placeholder="search">
+								</div>
+								<div class="button">
+									<button>
+									<img src="demoShop/icon (4).png" alt="">
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 padding_0">
+							<div class="cart">
+								<button>
+									<img src="demoShop/icon (1).png" alt="">
+								<button>
+							</div>
+							<div class="count">
+									<span id="products-count">0</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container padding_0">
+		<div class="slider">
+			<div >Slide №1</div>
+			<div >Slide №2</div>
+			<div >Slide №3</div>
+		</div>
+	</div>	
+	<main class="main">
+		<div class="container padding_0">
+			<div class="row margine0">
+				<div class="col-md-3 padding_0">
+						<div class="checkboxes">
+							<form action="">
+								<div class="device_type">
+								<div class="dt_label">device type</div>
+								<input type="checkbox" name="device_type" value="Laptop" id="laptop" class="custom-input">
+								<label for="laptop">Laptop</label><br>
+								<input type="checkbox" name="device_type" value="Tablet" id="tablet" class="custom-input">
+								<label for="tablet">Tablet</label>
+							</div>
+							<div class="device_color">
+								<div class="dc_label">color</div>
+								<input type="checkbox" name="device_color" value="Black" id="Black" class="custom-input ">
+								<label for="Black">Black</label><br>
+								<input type="checkbox" name="device_color" value="Red" id="Red" class="custom-input">
+								<label for="Red">Red</label><br>
+								<input type="checkbox" name="device_color" value="Green" id="Green" class="custom-input">
+								<label for="Green">Green</label><br>
+								<input type="checkbox" name="device_color" value="Blue" id="Blue" class="custom-input">
+								<label for="Blue">Blue</label><br>
+								<input type="checkbox" name="device_color" value="Orange" id="Orange" class="custom-input">
+								<label for="Orange">Orange</label>
+							</div>
+							<div class="device_ram">
+								<div class="dr_label">ram</div>
+								<input type="checkbox" name="device_ram" value="1GB" id="1" class="custom-input">
+								<label for="1">1GB</label><br>
+								<input type="checkbox" name="device_ram" value="2GB" id="2" class="custom-input">
+								<label for="2">2GB</label><br>
+								<input type="checkbox" name="device_ram" value="4GB" id="4" class="custom-input">
+								<label for="4">4GB</label><br>
+								<input type="checkbox" name="device_ram" value="6GB" id="6" class="custom-input">
+								<label for="6">6GB</label><br>
+								<input type="checkbox" name="device_ram" value="8GB" id="8" class="custom-input">
+								<label for="8">8GB</label>
+							</div>
+							<div class="more-options">
+								<a href="">Show more oprions...</a>
+							</div>
+							<div class="submit">
+								<input type="submit" value="SUBMIT">
+							</div>
+							</form>
+						</div>
+				</div>
+
+				<div class="col-md-9 padding_0 ">
+					
+						<div class="row margine0">
+							<div class="col-md-12 padding_0">
+								<div class="br_cr_main">
+									<ol class="breadcrumb padding_0 bread_cr margine0">
+									  <li><a href="#">Home page</a></li>
+									  <li><a href="#" >Products</a></li>
+									  <li class="active"><a href="">Laptops and Tablets</a></li>
+									</ol>
+								</div>
+							</div>
+						</div>
+
+						<div class="row margine0">
+							<div class="col-md-8 padding_0">	<!-- Laptops -->
+								<div class="products">
+									<span>
+										Laptops and Tablets
+									</span>
+								</div>
+							</div>		
+							<div class="col-md-4 "> 	<!-- Sort -->
+								<div class="sort_possition" >
+									<select class="sort" required="" name="Sort" id="">
+										<option value="name">sort by name</option>
+										<option class="option-2" selected="" value="price">sort by price</option>
+										<option value="date">sort by date</option>
+										<option value="popularity">sort by popularity</option>
+									</select>
+								</div>
+							</div>	
+						</div>
+						<div class="row margine0 pd_bottom ">               <!-- Tovar -->
+							<div class="col-md-4 padding_0">
+								<div class="items">
+									<div class="device">
+										<div class="device_logo">
+											<div class="logo_position">
+												<img src="demoShop/icon (17).png" alt="">
+											</div>
+											<!-- <div class="device_window">
+												<img src="demoShop/icon (8).png" alt="">
+											</div> -->
+											<div class="overlay">
+												<!-- <button><img src="demoShop/icon (8).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (8).png" alt=""></a>
+											</div>
+											<div class="device_like">
+												<!-- <button><img src="demoShop/icon (5).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (5).png" alt=""></a>
+											</div>
+										</div>
+										<div class="about_device">
+											<div class="text_position">
+												<div class="device_name">#1 Device Name</div>
+												<div class="device_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<div class="properties">
+													<div class="type"><span class="text-transform">Type:</span><span>Laptop</span></div>
+													<div class="screen_size"><span class="text-transform">Screen size:</span><span>7 inches</span></div>
+													<div class="ram"><span class="text-transform">Ram:</span><span>1 GB</span></div>
+												</div>	
+											</div>	
+											<div class="price">
+												<span>$599<sup><small>25</small></sup></span>
+											</div>
+											<div class="details">
+												<a href="">More details</a>
+												<!-- <button>More details</button> -->
+											</div>
+											<div class="add-to-cart">
+												<!-- <button>
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</button> -->
+												<a href="">
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</a>
+											</div>													
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 pd_left">
+								<div class="items">
+									<div class="device">
+										<div class="device_logo">
+											<div class="logo_position">
+												<img src="demoShop/icon (11).png" alt="">
+											</div>
+											<div class="overlay">
+												<!-- <button><img src="demoShop/icon (8).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (8).png" alt=""></a>
+											</div>
+											<div class="device_like ">
+												<!-- <button><img src="demoShop/icon (5).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (5).png" alt=""></a>
+											</div>
+										</div>
+										<div class="about_device">
+											<div class="text_position">
+												<div class="device_name">#2 Device Name</div>
+												<div class="device_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<div class="properties">
+													<div class="type"><span class="text-transform">Type:</span><span>Laptop</span></div>
+													<div class="screen_size"><span class="text-transform">Screen size:</span><span>7 inches</span></div>
+													<div class="ram"><span class="text-transform">Ram:</span><span>1 GB</span></div>
+												</div>	
+											</div>	
+											<div class="price">
+												<span>$1259<sup><small>99</small></sup></span>
+											</div>
+											<div class="details">
+												<!-- <button>More details</button> -->
+												<a href="">More details</a>
+											</div>
+											<div class="add-to-cart">
+												<!-- <button>
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</button> -->
+												<a href="">
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</a>
+											</div>													
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 padding-left-3rd-data">
+								<div class="items">
+									<div class="device">
+										<div class="device_logo">
+											<div class="logo_position">
+												<img src="demoShop/icon (10).png" alt="">
+											</div>
+											<div class="overlay">
+												<!-- <button><img src="demoShop/icon (8).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (8).png" alt=""></a>
+											</div>
+											<div class="device_like">
+												<!-- <button><img src="demoShop/icon (5).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (5).png" alt=""></a>
+											</div>
+										</div>
+										<div class="about_device">
+											<div class="text_position">
+												<div class="device_name">#3 Device Name</div>
+												<div class="device_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<div class="properties">
+													<div class="type"><span class="text-transform">Type:</span><span>Laptop</span></div>
+													<div class="screen_size"><span class="text-transform">Screen size:</span><span>7 inches</span></div>
+													<div class="ram"><span class="text-transform">Ram:</span><span>1 GB</span></div>
+												</div>	
+											</div>	
+											<div class="price">
+												<span>$399<sup><small>50</small></sup></span>
+											</div>
+											<div class="details">
+												<!-- <button>More details</button> -->
+												<a href="">More details</a>
+											</div>
+											<div class="add-to-cart">
+												<!-- <button>
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</button> -->
+												<a href="">
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</a>
+											</div>													
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row margine0 pd_bottom">                <!-- Tovar row#2 -->
+							<div class="col-md-4 padding_0">
+								<div class="items">
+									<div class="device">
+										<div class="device_logo">
+											<div class="logo_position">
+												<img src="demoShop/icon (16).png" alt="">
+											</div>
+											<div class="overlay">
+												<!-- <button><img src="demoShop/icon (8).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (8).png" alt=""></a>
+											</div>
+											<div class="device_like">
+												<!-- <button><img src="demoShop/icon (5).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (5).png" alt=""></a>
+											</div>
+										</div>
+										<div class="about_device">
+											<div class="text_position">
+												<div class="device_name">#1 Device Name</div>
+												<div class="device_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<div class="properties">
+													<div class="type"><span class="text-transform">Type:</span><span>Laptop</span></div>
+													<div class="screen_size"><span class="text-transform">Screen size:</span><span>7 inches</span></div>
+													<div class="ram"><span class="text-transform">Ram:</span><span>1 GB</span></div>
+												</div>	
+											</div>	
+											<div class="price">
+												<span>$599<sup><small>25</small></sup></span>
+											</div>
+											<div class="details">
+												<!-- <button>More details</button> -->
+												<a href="">More details</a>
+											</div>
+											<div class="add-to-cart">
+												<!-- <button>
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</button> -->
+												<a href="">
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</a>
+											</div>													
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 pd_left">
+								<div class="items">
+									<div class="device">
+										<div class="device_logo">
+											<div class="logo_position">
+												<img src="demoShop/icon (14).png" alt="">
+											</div>
+											<div class="overlay">
+												<!-- <button><img src="demoShop/icon (8).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (8).png" alt=""></a>
+											</div>
+											<div class="device_like">
+												<!-- <button><img src="demoShop/icon (5).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (5).png" alt=""></a>
+											</div>
+										</div>
+										<div class="about_device">
+											<div class="text_position">
+												<div class="device_name">#2 Device Name</div>
+												<div class="device_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<div class="properties">
+													<div class="type"><span class="text-transform">Type:</span><span>Laptop</span></div>
+													<div class="screen_size"><span class="text-transform">Screen size:</span><span>7 inches</span></div>
+													<div class="ram"><span class="text-transform">Ram:</span><span>1 GB</span></div>
+												</div>	
+											</div>	
+											<div class="price">
+												<span>$1259<sup><small>99</small></sup></span>
+											</div>
+											<div class="details">
+												<!-- <button>More details</button> -->
+												<a href="">More details</a>
+											</div>
+											<div class="add-to-cart">
+												<!-- <button>
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</button> -->
+												<a href="">
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</a>
+											</div>													
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 padding-left-3rd-data">
+								<div class="items">
+									<div class="device">
+										<div class="device_logo">
+											<div class="logo_position">
+												<img src="demoShop/icon (12).png" alt="">
+											</div>
+											<div class="overlay">
+												<!-- <button><img src="demoShop/icon (8).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (8).png" alt=""></a>
+											</div>
+											<div class="device_like">
+												<!-- <button><img src="demoShop/icon (5).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (5).png" alt=""></a>
+											</div>
+										</div>
+										<div class="about_device">
+											<div class="text_position">
+												<div class="device_name">#3 Device Name</div>
+												<div class="device_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<div class="properties">
+													<div class="type"><span class="text-transform">Type:</span><span>Laptop</span></div>
+													<div class="screen_size"><span class="text-transform">Screen size:</span><span>7 inches</span></div>
+													<div class="ram"><span class="text-transform">Ram:</span><span>1 GB</span></div>
+												</div>	
+											</div>	
+											<div class="price">
+												<span>$399<sup><small>50</small></sup></span>
+											</div>
+											<div class="details">
+												<!-- <button>More details</button> -->
+												<a href="">More details</a>
+											</div>
+											<div class="add-to-cart">
+												<!-- <button>
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</button> -->
+												<a href="">
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</a>
+											</div>													
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row margine0">                			<!-- Tovar row#3 -->
+							<div class="col-md-4 padding_0">
+								<div class="items">
+									<div class="device">
+										<div class="device_logo">
+											<div class="logo_position">
+												<img src="demoShop/icon (15).png" alt="">
+											</div>
+											<div class="overlay">
+												<!-- <button><img src="demoShop/icon (8).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (8).png" alt=""></a>
+											</div>
+											<div class="device_like">
+												<!-- <button><img src="demoShop/icon (5).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (5).png" alt=""></a>
+											</div>
+										</div>
+										<div class="about_device">
+											<div class="text_position">
+												<div class="device_name">#1 Device Name</div>
+												<div class="device_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<div class="properties">
+													<div class="type"><span class="text-transform">Type:</span><span>Laptop</span></div>
+													<div class="screen_size"><span class="text-transform">Screen size:</span><span>7 inches</span></div>
+													<div class="ram"><span class="text-transform">Ram:</span><span>1 GB</span></div>
+												</div>	
+											</div>	
+											<div class="price">
+												<span>$599<sup><small>25</small></sup></span>
+											</div>
+											<div class="details">
+												<!-- <button>More details</button> -->
+												<a href="">More details</a>
+											</div>
+											<div class="add-to-cart">
+												<!-- <button>
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</button> -->
+												<a href="">
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</a>
+											</div>													
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 pd_left">
+								<div class="items">
+									<div class="device">
+										<div class="device_logo">
+											<div class="logo_position">
+												<img src="demoShop/icon (9).png" alt="">
+											</div>
+											<div class="overlay">
+												<!-- <button><img src="demoShop/icon (8).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (8).png" alt=""></a>
+											</div>
+											<div class="device_like">
+												<!-- <button><img src="demoShop/icon (5).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (5).png" alt=""></a>
+											</div>
+										</div>
+										<div class="about_device">
+											<div class="text_position">
+												<div class="device_name">#2 Device Name</div>
+												<div class="device_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<div class="properties">
+													<div class="type"><span class="text-transform">Type:</span><span>Laptop</span></div>
+													<div class="screen_size"><span class="text-transform">Screen size:</span><span>7 inches</span></div>
+													<div class="ram"><span class="text-transform">Ram:</span><span>1 GB</span></div>
+												</div>	
+											</div>	
+											<div class="price">
+												<span>$1259<sup><small>99</small></sup></span>
+											</div>
+											<div class="details">
+												<!-- <button>More details</button> -->
+												<a href="">More details</a>
+											</div>
+											<div class="add-to-cart">
+												<!-- <button>
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</button> -->
+												<a href="">
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</a>
+											</div>													
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 padding-left-3rd-data">
+								<div class="items">
+									<div class="device">
+										<div class="device_logo">
+											<div class="logo_position">
+												<img src="demoShop/icon (13).png" alt="">
+											</div>
+											<div class="overlay">
+												<!-- <button><img src="demoShop/icon (8).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (8).png" alt=""></a>
+											</div>
+											<div class="device_like">
+												<!-- <button><img src="demoShop/icon (5).png" alt=""></button> -->
+												<a href=""><img src="demoShop/icon (5).png" alt=""></a>
+											</div>
+										</div>
+										<div class="about_device">
+											<div class="text_position">
+												<div class="device_name">#3 Device Name</div>
+												<div class="device_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+												<div class="properties">
+													<div class="type"><span class="text-transform">Type:</span><span>Laptop</span></div>
+													<div class="screen_size"><span class="text-transform">Screen size:</span><span>7 inches</span></div>
+													<div class="ram"><span class="text-transform">Ram:</span><span>1 GB</span></div>
+												</div>	
+											</div>	
+											<div class="price">
+												<span>$399<sup><small>50</small></sup></span>
+											</div>
+											<div class="details">
+												<!-- <button>More details</button> -->
+												<a href="">More details</a>
+											</div>
+											<div class="add-to-cart">
+												<!-- <button>
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</button> -->
+												<a href="">
+													<span>Add to cart</span>
+													<img src="demoShop/icon (2).png" alt="">
+												</a>
+											</div>													
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row margine0">
+							<div class="col-md-12 padding_0">
+								<div class="load-more">
+									<a href="">Load more ...</a>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container padding_0">
+			<div class="row margine0">
+				<div class="col-md-12 copyright">
+						<span>Copyright 2017</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
